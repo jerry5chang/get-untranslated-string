@@ -1,0 +1,14 @@
+{
+	"name": "get-untranslated-tags",
+	"version": "1.0.0",
+	"description": "Get untranslated string tags",
+	"bin": {
+		"get-untranslated-tags": "get-untranslated-tags"
+	},
+	"dependencies": {
+		"fs": "0.0.1-security",
+		"json2csv": "^3.11.5",
+		"shelljs": "^0.7.8",
+		"yargs": "^10.0.3"
+	}
+}
