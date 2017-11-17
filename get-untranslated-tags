@@ -95,6 +95,8 @@ var differ = function(fileName){
 	});
 }
 
+if(argv.p[argv.p.length] != '/') argv.p += '/';
+
 if(!argv.f){
 	fs.readdir(argv.p, (err, files) => {
 		files.forEach(differ);
