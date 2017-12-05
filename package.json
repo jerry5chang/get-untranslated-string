@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Get untranslated string tags",
 	"bin": {
-		"get-untranslated-tags": "get-untranslated-tags"
+		"get-untranslated-tags": "get-untranslated-tags.js"
 	},
 	"dependencies": {
 		"fs": "0.0.1-security",
