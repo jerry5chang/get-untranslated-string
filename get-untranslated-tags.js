@@ -57,6 +57,8 @@ function differ(fileName){
 						strId.indexOf('CTL_ok') === -1 && 
 						strId.indexOf('CHAR_set') === -1 && 
 						strId.indexOf('menu5') === -1 && 
+						strId.indexOf('country_') === -1 && 
+						strId.indexOf('Device_type_') === -1 && 
 						strId !== ''
 					)
 				})
